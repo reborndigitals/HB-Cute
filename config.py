@@ -12,7 +12,7 @@ API_HASH = getenv("API_HASH", "e6d1f09120e17a4372fe022dde88511b")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI",)
+MONGO_DB_URI = getenv("MONGO_DB_URI","mongodb+srv://zewdatabase:ijoXgdmQ0NCyg9DO@zewgame.urb3i.mongodb.net/ontap?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 
@@ -30,7 +30,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY", "HRKU-fc1b7aea-b37a-4015-9877-8c3967ee
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/rajeshrakis/hb-cute",
+    "https://github.com/reborndigitals/hb-cute",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
@@ -81,7 +81,7 @@ CLEANMODE_DELETE_MINS = int(
 )  # Remember to give value in Seconds
 
 # Get your pyrogram v2 session from @VIP_STRING_ROBOT on Telegram
-STRING1 = getenv("STRING_SESSION2", None)
+STRING1 = getenv("STRING_SESSION2", "BQB_AAoAtt7L4hAzCi_S7tRo-kierhGIMBMBGSOQ70B7jq2xTtQeuJqIDme0qkCMvdF5n7U4w7oA9EAyZW9n3M_4aZHkFoqygF4518lUDrbiEzISGr5UcLajAqmrjRVXWZSo0Bp4D2fa0pCdwX6K6oiIjpr3cAVPv5wJCsrR42MDvz1vJ8WqH6IWztxaDmZKLMGpI4XJmNYetElSGTyNHP3no0ylx5MHEhLlBaOrUietFDx7etmbOP4NjmfcXuT1tVrb7nYEdpRcJzOFzIV8gVoagDnEmXadcAGD567b69Fvf_gkReiH3P3dWWfrnnD0L91bE9m-HbRaqSrTuFhu1nEXC7UsrgAAAAB8rK97AA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
