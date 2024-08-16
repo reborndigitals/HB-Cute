@@ -53,7 +53,7 @@ SHAYRI = [ " **𝑷𝒆𝒏𝒏𝒆𝒚 𝑵𝒆 𝑷𝒂𝒌𝒌𝒂 𝑷𝒂�
            " **𝑺𝒂𝒎𝒂𝒚𝒂𝒍 𝑺𝒆𝒊𝒚𝒚𝒂 𝑻𝒉𝒆𝒗𝒂 𝑺𝒕𝒐𝒗𝒆 - 𝑼𝒉 𝑵𝒂𝒎𝒎𝒂 𝑹𝒆𝒏𝒅𝒖 𝑷𝒆𝒓𝒖𝒎 𝑷𝒂𝒏𝒏𝒂𝒍𝒂𝒎 𝑨𝒉 𝑳𝒐𝒗𝒆 - 𝑼𝒉 💙**" ]
 
 # Command
-SHAYRI_COMMAND = ["pickup", "uruttu", "love"]
+SHAYRI_COMMAND = ["lifeline", "lovebeats", "heartbeat"]
 
 @app.on_message(
     filters.command(SHAYRI_COMMAND)
