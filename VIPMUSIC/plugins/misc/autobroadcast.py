@@ -10,82 +10,69 @@ AUTO_GCASTS = f"{AUTO_GCAST}" if AUTO_GCAST else False
 
 START_IMG_URLS = "https://graph.org/file/ffdb1be822436121cf5fd.png"
 
-MESSAGES = f"""  **𝐻𝑒𝑎𝑟𝑡 𝐵𝑒𝑎𝑡 𝐷𝑟𝑢𝑔𝑧𝑠 🖤✨ 𝐼𝑠 𝐴𝑑𝑣𝑎𝑛𝑐𝑒 𝑀𝑢𝑠𝑖𝑐 𝐵𝑜𝑡  😎🙂‍↔✨
+MESSAGE = f"""𝘽𝙊𝙏 𝙁𝙀𝘼𝙏𝙐𝙍𝙀𝙎: (•‌ᴗ•‌)و
 
-𝑁𝑒𝑤 𝐹𝑒𝑎𝑡𝑢𝑟𝑒 📩✨
+⍟𝗌ᴜᴘᴘᴏʀᴛ ʏᴏᴜᴛᴜʙᴇ ʟɪɴᴋ𝗌 ⍟ ᴡᴇʟᴄᴏᴍᴇ ɴᴏᴛɪᴄᴇ ⍟ ᴠᴄ-ɪɴᴠɪᴛᴇ ᴄᴀʀᴅ ⍟ ᴘʟᴀʏ ᴡɪᴛʜᴏᴜᴛ 𝗌ʟᴀ𝗌ʜ
 
-𝑁𝑜𝑤 𝑌𝑜𝑢 𝐶𝑎𝑛 𝑃𝑙𝑎𝑦 𝑊𝑖𝑡ℎ𝑜𝑢𝑡 [ / ] 🙅🏻
+✰ 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 𝐒𝐨𝐧𝐠𝐬 & 𝐕𝐢𝐝𝐞𝐨𝐬 💫 (𝑆𝑢𝑝𝑝𝑜𝑟𝑡 𝑌𝑜𝑢𝑡𝑢𝑏𝑒 𝑙𝑖𝑛𝑘𝑠) 
+➻ /play or play
+➻ /vplay or vplay
 
-𝐸𝑥 : 𝑃𝑙𝑎𝑦 𝑆𝑜𝑛𝑔 𝑁𝑎𝑚𝑒 𝑂𝑅 𝑌𝑡 𝐿𝑖𝑛𝑘 🪶
+✰ 𝐌𝐞𝐧𝐭𝐢𝐨𝐧/𝐓𝐚𝐠𝐀𝐥𝐥:💫
+➻ /tagall
+➻ /vctag
+➻ /heartbeat /honeymoon
+➻ /gmtag /gntag
+➻ /tamiltag
 
-𝑃𝑖𝑐𝑘𝑢𝑝 𝑙𝑖𝑛𝑒 💙✨, 𝐿𝑒𝑓𝑡 𝑁𝑜𝑡𝑖𝑐𝑒 😑✨ , 𝑇𝑎𝑔𝑎𝑙𝑙 🥳✨, 𝑉𝑐𝑇𝑎𝑔 🎥✨, 𝑉𝑖𝑑𝑒𝑜 𝐷𝑜𝑤𝑛𝑙𝑜𝑎𝑑 🔽✨, 𝐵𝑎𝑛 🚫✨, 𝑊𝑒𝑙𝑐𝑜𝑚𝑒 𝑁𝑜𝑡𝑖𝑐𝑒 😇✨
+😻ᴘʀᴏ ғᴇᴀᴛᴜʀᴇ𝗌 ᴜɴʟᴏᴄᴋᴇᴅ🥳
+✰ 𝑭𝒖𝒏 𝑻𝒂𝒈𝒔:🥂
+➻ /lifeline
+➻ /lovebeats
+➻ /heartbeat
+➻ /couples
+➻ /love (BoyName) (GirlName)
 
-𝐻𝑒𝑎𝑟𝑡 𝐵𝑒𝑎𝑡 𝐷𝑟𝑢𝑔𝑧 🖤✨ 𝑆𝑝𝑙 𝐹𝑒𝑎𝑡𝑢𝑟𝑒 🦋✨
+✰ 𝐖𝐡𝐢𝐬𝐩𝐞𝐫 𝐌𝐞𝐬𝐬𝐚𝐠𝐞𝐬:🥂
+(𝑆𝑢𝑝𝑝𝑜𝑟𝑡 𝘗𝘔/𝑂𝑛𝑒 𝑇𝑖𝑚𝑒 𝑉𝑖𝑒𝑤)
+➻ @BotUsername @User_UserName (Text Message)
 
-𝑃𝑖𝑐𝑘 𝑈𝑝 𝐿𝑖𝑛𝑒 🔐✨
+✰ 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐒𝐨𝐧𝐠𝐬 𝐕𝐢𝐝𝐞𝐨𝐬:🥂
+(𝑆𝑢𝑝𝑝𝑜𝑟𝑡 𝐼𝑛𝑠𝑡𝑎 𝑅𝑒𝑎𝑙𝑠 𝑑𝑜𝑤𝑛𝑙𝑜𝑎𝑑)
+➻ /song Song Name
+➻ /video Song Name
+➻ /insta InstaLink
 
-𝐶𝑚𝑑 📲✨
+✰ 𝐓𝐨𝐩 𝐔𝐬𝐞𝐫𝐬🥂
+➻ /ranking
 
-/lifeline
+✰ 𝐍𝐚𝐦𝐞 𝐇𝐢𝐬𝐭𝐨𝐫𝐲🥂
+➻ /sg (replay user message|id)
 
-/lovebeats
+✰ 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞 𝐒𝐭𝐲𝐥𝐢𝐬𝐡 𝐅𝐨𝐧𝐭𝐬:🥂
+➻ /font (Text)
 
-/heartbeat
+💕Sᴜᴘᴘᴏʀᴛ Mᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ Fᴇᴀᴛᴜʀᴇ𝗌 Lɪᴋᴇ:🦋
+𝙸𝙳, 𝙸𝚗𝚏𝚘, 𝙵𝚒𝚕𝚝𝚎𝚛𝚜, 𝙱𝚊𝚗𝚜, 𝙼𝚞𝚝𝚎𝚜, 𝚎𝚝𝚌,.
 
-𝑃𝑜𝑤𝑒𝑟 𝐵𝑦 - [𝞖𝘌𝘈𝘙𝘛𝂬♡𝂬𝞑𝘌𝘈𝘛▹ᴴᴮ⸳⸳ⷮ⸳⸳ⷨ ](https://t.me/HeartBeat_Muzic) 😎✨
+----------------------------------
+😈😈𝘼𝙇𝙇 𝙁𝙀𝘼𝙏𝙐𝙍𝙀𝙎 𝘼𝙍𝙀 𝘼𝙑𝘼𝙄𝙇𝘼𝘽𝙇𝙀 𝑶𝑵𝑳𝒀  𝙄𝙉 𝙏𝙃𝙄𝙎 𝘽𝙊𝙏🥵🥵
+----------------------------------
 
-𝑂𝑤𝑛𝑒𝑟 - [𑫏ⳢⅬᤌໍᤌ᭄ᰈⅬᤌໍᤌ𑂞ⳣവᰈᮀ།ໍᴮᴬᵀ🦇](https://t.me/rajeshrakis) ❤🖤✨ 
+𝑃𝑜𝑤𝑒𝑟 𝐵𝑦 - [𝞖𝘌𝘈𝘙𝘛𝂬♡𝂬𝞑𝘌𝘈𝘛▹ᴴᴮ⸳⸳ⷮ⸳⸳ⷨ](https://t.me/HeartBeat_Muzic)😎✨
 
-𝑁𝑒𝑡𝑤𝑜𝑟𝑘 - [𝞖𝘌𝘈𝘙𝘛𝂬♡𝂬𝞑𝘌𝘈𝘛▹ᴴᴮ⸳⸳ⷮ⸳⸳ⷨ](https://t.me/HeartBeat_Offi) 😎✨**"""
+𝑂𝑤𝑛𝑒𝑟 - [𝅗ـﮩ٨ـ𝅽𝅾𓆩𑫏ⳢⅬᤌໍᤌ᭄ᰈⅬᤌໍᤌ𑂞ⳣവᰈᮀ།ໍᴮᴬᵀ🦇𓆪ﮩ٨ـ𝅽𝅾‐𝅘](https://t.me/rajeshrakis) 
 
+𝑁𝑒𝑡𝑤𝑜𝑟𝑘 - [𝞖𝘌𝘈𝘙𝘛𝂬♡𝂬𝞑𝘌𝘈𝘛▹ᴴᴮ⸳⸳ⷮ⸳⸳ⷨ](https://t.me/HeartBeat_Offi) 😎✨"""
 
 BUTTONS = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton("🦋‌𝞖𝘌𝘈𝘙𝘛𝂬♡𝂬‌𝞑𝘌𝘈𝘛▹ᴴᴮ⸳⸳ⷮ⸳⸳ⷨ ‌𝆺𝅥🦋⤍🖤", url=f"https://t.me/{app.username}?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users")
+            InlineKeyboardButton("💕‌𝞖𝘌𝘈𝘙𝘛𝂬♡𝂬‌𝞑𝘌𝘈𝘛𝆺𝅥🦋", url=f"https://t.me/HeartBeat_Muzic")
         ]
     ]
 )
 
-MESSAGE = f"""**𝐻𝑒𝑎𝑟𝑡 𝐵𝑒𝑎𝑡 𝐷𝑟𝑢𝑔𝑧 🖤✨ 𝐼𝑠 𝐴𝑑𝑣𝑎𝑛𝑐𝑒 𝑀𝑢𝑠𝑖𝑐 𝐵𝑜𝑡  😎🙂‍↔✨
-
-𝑁𝑒𝑤 𝐹𝑒𝑎𝑡𝑢𝑟𝑒 📩✨
-
-𝑁𝑜𝑤 𝑌𝑜𝑢 𝐶𝑎𝑛 𝑃𝑙𝑎𝑦 𝑊𝑖𝑡ℎ𝑜𝑢𝑡 [ / ] 🙅🏻
-
-𝐸𝑥 : 𝑃𝑙𝑎𝑦 𝑆𝑜𝑛𝑔 𝑁𝑎𝑚𝑒 𝑂𝑅 𝑌𝑡 𝐿𝑖𝑛𝑘 🪶
-
-𝑃𝑖𝑐𝑘𝑢𝑝 𝑙𝑖𝑛𝑒 💙✨, 𝐿𝑒𝑓𝑡 𝑁𝑜𝑡𝑖𝑐𝑒 😑✨ , 𝑇𝑎𝑔𝑎𝑙𝑙 🥳✨, 𝑉𝑐𝑇𝑎𝑔 🎥✨, 𝑉𝑖𝑑𝑒𝑜 𝐷𝑜𝑤𝑛𝑙𝑜𝑎𝑑 🔽✨, 𝐵𝑎𝑛 🚫✨, 𝑊𝑒𝑙𝑐𝑜𝑚𝑒 𝑁𝑜𝑡𝑖𝑐𝑒 😇✨
-
-𝐻𝑒𝑎𝑟𝑡 𝐵𝑒𝑎𝑡 𝐷𝑟𝑢𝑔𝑧 🖤✨ 𝑆𝑝𝑙 𝐹𝑒𝑎𝑡𝑢𝑟𝑒 🦋✨
-
-𝑃𝑖𝑐𝑘 𝑈𝑝 𝐿𝑖𝑛𝑒 🔐✨
-
-𝐶𝑚𝑑 📲✨
-
-/uruttu 
-
-/pickup 
-
-/love
-
-𝑃𝑜𝑤𝑒𝑟 𝐵𝑦 - [𝞖𝘌𝘈𝘙𝘛𝂬♡𝂬𝞑𝘌𝘈𝘛▹ᴴᴮ⸳⸳ⷮ⸳⸳ⷨ](https://t.me/HeartBeat_Muzic)😎✨
-
-𝑂𝑤𝑛𝑒𝑟 - [𑫏ⳢⅬᤌໍᤌ᭄ᰈⅬᤌໍᤌ𑂞ⳣവᰈᮀ།ໍᴮᴬᵀ🦇](https://t.me/rajeshrakis) ❤🖤✨ 
-
-𝑁𝑒𝑡𝑤𝑜𝑟𝑘 - [𝞖𝘌𝘈𝘙𝘛𝂬♡𝂬𝞑𝘌𝘈𝘛▹ᴴᴮ⸳⸳ⷮ⸳⸳ⷨ](https://t.me/HeartBeat_Offi) 😎✨
-
-🔐ᴜꜱᴇ » [/start](https://t.me/{app.username}?start=help) ᴛᴏ ᴄʜᴇᴄᴋ ʙᴏᴛ
-
-➲ ʙᴏᴛ :** @{app.username}"""
-
-BUTTON = InlineKeyboardMarkup(
-    [
-        [
-            InlineKeyboardButton("💕 𝐊𖽹𖽴𖽡𖽖𖽳 𝐌𖽞 🦋", url=f"https://t.me/{app.username}?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users")
-        ]
-    ]
-)
 
 caption = f"""{AUTO_GCAST_MSG}""" if AUTO_GCAST_MSG else MESSAGES
 
