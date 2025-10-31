@@ -31,7 +31,6 @@ pykeyboard
 pyshorteners
 pyrogram==2.0.106
 #https://github.com/KurimuzonAkuma/pyrogram/archive/v2.1.23.zip
-git+https://github.com/badmunda98/yt-dp-fork
 python-dotenv
 pyyaml==6.0.1
 requests
@@ -56,3 +55,8 @@ openai==0.28.0
 mpv
 moviepy
 lyricsgenius
+git+https://github.com/KurimuzonAkuma/pyrogram@dev
+git+https://github.com/yt-dlp/yt-dlp
+git+https://github.com/alexmercerind/youtube-search-python@main
+git+https://github.com/joetats/youtube_search@master
+git+https://github.com/THE-VIP-BOY-OP/yt-dlp-youtube-oauth2
